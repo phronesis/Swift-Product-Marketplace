@@ -1,0 +1,35 @@
+type LastMessage {
+  body: String!
+  dateTime: AWSDateTime
+  productId: ID!
+}
+
+type ChatRoom @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  memberIds: [ID!]
+  lastMessage: LastMessage
+  Messages: [Message] @hasMany(indexName: "byChatRoom", fields: ["id"])
+}
+
+type Message @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  body: String!
+  dateTime: AWSDate
+  sender: User @hasOne
+  chatroomID: ID! @index(name: "byChatRoom")
+}
+
+type Product @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  price: Int!
+  imageKey: String!
+  productDescription: String
+  userId: ID!
+}
+
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String!
+}
+ 

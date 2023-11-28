@@ -7,18 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA8E8CFFDCDBD8B92E182F7 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F8233B185700A3F7E5AFA /* AmplifyModels.swift */; };
+		12E7156A6B1F5943B2549ED5 /* LastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9234701AB92542CC33A14C /* LastMessage.swift */; };
+		242884E74B69933501EACF19 /* User+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1A2E2A367DCB9BE7254FAB /* User+Schema.swift */; };
+		4FED0F321137AE594E4CCAB9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D572EA68EBB9EC5BC213B299 /* Message.swift */; };
+		53526B6583EB7F8B0EC286E5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F532903E970978D56AC2E03 /* Product.swift */; };
+		8746A56D06E063604B46A469 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = C3CD4A2F3BAC7581596F2AAF /* awsconfiguration.json */; };
+		9F69032156AC4B8C778DF320 /* Message+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B17B42126CC045575CDDA3 /* Message+Schema.swift */; };
+		A50C21FDA6896E1295F0761B /* ChatRoom+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1F7F7E2BADBDBE449107 /* ChatRoom+Schema.swift */; };
+		B37C30B0E5E8D79D17016B7D /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A88FBA224FAE4D3C16939350 /* amplifyconfiguration.json */; };
+		B4267708D12D40840F34F131 /* LastMessage+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65A12591881A935A19A10B /* LastMessage+Schema.swift */; };
 		B742B44D2AF53357009C1944 /* ProductMarketplaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742B44C2AF53357009C1944 /* ProductMarketplaceApp.swift */; };
 		B742B44F2AF53357009C1944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742B44E2AF53357009C1944 /* ContentView.swift */; };
 		B742B4512AF53358009C1944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B742B4502AF53358009C1944 /* Assets.xcassets */; };
 		B742B4542AF53358009C1944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B742B4532AF53358009C1944 /* Preview Assets.xcassets */; };
+		B742B45C2AF53F7F009C1944 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B45B2AF53F7F009C1944 /* AWSAPIPlugin */; };
+		B742B45E2AF53F7F009C1944 /* AWSCloudWatchLoggingPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B45D2AF53F7F009C1944 /* AWSCloudWatchLoggingPlugin */; };
+		B742B4602AF53F7F009C1944 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B45F2AF53F7F009C1944 /* AWSCognitoAuthPlugin */; };
+		B742B4622AF53F7F009C1944 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B4612AF53F7F009C1944 /* AWSDataStorePlugin */; };
+		B742B4642AF53F7F009C1944 /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B4632AF53F7F009C1944 /* AWSLocationGeoPlugin */; };
+		B742B4662AF53F7F009C1944 /* AWSPinpointAnalyticsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B4652AF53F7F009C1944 /* AWSPinpointAnalyticsPlugin */; };
+		B742B4682AF53F7F009C1944 /* AWSPinpointPushNotificationsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B4672AF53F7F009C1944 /* AWSPinpointPushNotificationsPlugin */; };
+		B742B46A2AF53F7F009C1944 /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = B742B4692AF53F7F009C1944 /* AWSPluginsCore */; };
+		B742B46C2AF53F7F009C1944 /* AWSPredictionsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B46B2AF53F7F009C1944 /* AWSPredictionsPlugin */; };
+		B742B46E2AF53F7F009C1944 /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B46D2AF53F7F009C1944 /* AWSS3StoragePlugin */; };
+		B742B4702AF53F7F009C1944 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = B742B46F2AF53F7F009C1944 /* Amplify */; };
+		B742B4722AF53F7F009C1944 /* CoreMLPredictionsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = B742B4712AF53F7F009C1944 /* CoreMLPredictionsPlugin */; };
+		B742B4742AF54F7F009C1944 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742B4732AF54F7F009C1944 /* LoginView.swift */; };
+		B742BB3C2AF5595300D1AEB5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB3B2AF5595300D1AEB5 /* SignUpView.swift */; };
+		B742BB3E2AF559D900D1AEB5 /* ConfirmSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB3D2AF559D900D1AEB5 /* ConfirmSignUpView.swift */; };
+		B742BB402AF55DF500D1AEB5 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB3F2AF55DF500D1AEB5 /* UserState.swift */; };
+		B742BB422AF55E2F00D1AEB5 /* MarketplaceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB412AF55E2F00D1AEB5 /* MarketplaceError.swift */; };
+		B742BB442AF55E5200D1AEB5 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB432AF55E5200D1AEB5 /* SessionView.swift */; };
+		B742BB482AF5651400D1AEB5 /* AmplifyImage in Frameworks */ = {isa = PBXBuildFile; productRef = B742BB472AF5651400D1AEB5 /* AmplifyImage */; };
+		B742BB4A2AF5653000D1AEB5 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB492AF5653000D1AEB5 /* AvatarView.swift */; };
+		B742BB4C2AF5660F00D1AEB5 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB4B2AF5660F00D1AEB5 /* UserProfileView.swift */; };
+		B742BB4E2AF566BE00D1AEB5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB4D2AF566BE00D1AEB5 /* MainTabView.swift */; };
+		B742BB502AF572DA00D1AEB5 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742BB4F2AF572DA00D1AEB5 /* ImagePickerView.swift */; };
+		B7BE2C722AF95E6E00E7F4F8 /* ProductGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C712AF95E6E00E7F4F8 /* ProductGridCell.swift */; };
+		B7BE2C742AF9609B00E7F4F8 /* Product+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C732AF9609B00E7F4F8 /* Product+Extensions.swift */; };
+		B7BE2C762AFBE94000E7F4F8 /* HomeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C752AFBE94000E7F4F8 /* HomeRoute.swift */; };
+		B7BE2C782AFBE99300E7F4F8 /* PostProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C772AFBE99300E7F4F8 /* PostProductView.swift */; };
+		B7BE2C7A2AFBE9F100E7F4F8 /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C792AFBE9F100E7F4F8 /* ProductDetailsView.swift */; };
+		B7BE2C7C2AFBEA4000E7F4F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C7B2AFBEA4000E7F4F8 /* HomeView.swift */; };
+		B7BE2C7E2AFBF27600E7F4F8 /* InboxListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C7D2AFBF27600E7F4F8 /* InboxListCell.swift */; };
+		B7BE2C802AFBF2D400E7F4F8 /* ChatRoom+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C7F2AFBF2D400E7F4F8 /* ChatRoom+Extensions.swift */; };
+		B7BE2C822AFBF39700E7F4F8 /* ChatRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C812AFBF39700E7F4F8 /* ChatRoute.swift */; };
+		B7BE2C842AFBF3C600E7F4F8 /* User+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C832AFBF3C600E7F4F8 /* User+Extensions.swift */; };
+		B7BE2C862AFBF41200E7F4F8 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C852AFBF41200E7F4F8 /* InboxView.swift */; };
+		B7BE2C882AFBF54F00E7F4F8 /* MessageListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C872AFBF54F00E7F4F8 /* MessageListCell.swift */; };
+		B7BE2C8A2AFBF82E00E7F4F8 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C892AFBF82E00E7F4F8 /* MessagesView.swift */; };
+		B7BE2C8C2AFBF87B00E7F4F8 /* Message+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE2C8B2AFBF87B00E7F4F8 /* Message+Extensions.swift */; };
+		CB13D884B04302E4E765F490 /* Product+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D095958B288E6A17098D24 /* Product+Schema.swift */; };
+		D2AB65745B9EFD119B0A0ED2 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF5EB12D3C60E456910DCA /* ChatRoom.swift */; };
+		F274278FA732B98B354B5AAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F60050D82E0EE7B571D2E9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C9234701AB92542CC33A14C /* LastMessage.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = LastMessage.swift; path = amplify/generated/models/LastMessage.swift; sourceTree = "<group>"; };
+		15F60050D82E0EE7B571D2E9 /* User.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = User.swift; path = amplify/generated/models/User.swift; sourceTree = "<group>"; };
+		3F0F8233B185700A3F7E5AFA /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		54B17B42126CC045575CDDA3 /* Message+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Message+Schema.swift"; path = "amplify/generated/models/Message+Schema.swift"; sourceTree = "<group>"; };
+		5E1A2E2A367DCB9BE7254FAB /* User+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "User+Schema.swift"; path = "amplify/generated/models/User+Schema.swift"; sourceTree = "<group>"; };
+		78BD1F7F7E2BADBDBE449107 /* ChatRoom+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "ChatRoom+Schema.swift"; path = "amplify/generated/models/ChatRoom+Schema.swift"; sourceTree = "<group>"; };
+		7F532903E970978D56AC2E03 /* Product.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Product.swift; path = amplify/generated/models/Product.swift; sourceTree = "<group>"; };
+		94D095958B288E6A17098D24 /* Product+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Product+Schema.swift"; path = "amplify/generated/models/Product+Schema.swift"; sourceTree = "<group>"; };
+		A88FBA224FAE4D3C16939350 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		B742B4492AF53357009C1944 /* ProductMarketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductMarketplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B742B44C2AF53357009C1944 /* ProductMarketplaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductMarketplaceApp.swift; sourceTree = "<group>"; };
 		B742B44E2AF53357009C1944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B742B4502AF53358009C1944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B742B4532AF53358009C1944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B742B4732AF54F7F009C1944 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B742BB3B2AF5595300D1AEB5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B742BB3D2AF559D900D1AEB5 /* ConfirmSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpView.swift; sourceTree = "<group>"; };
+		B742BB3F2AF55DF500D1AEB5 /* UserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserState.swift; sourceTree = "<group>"; };
+		B742BB412AF55E2F00D1AEB5 /* MarketplaceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceError.swift; sourceTree = "<group>"; };
+		B742BB432AF55E5200D1AEB5 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		B742BB492AF5653000D1AEB5 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		B742BB4B2AF5660F00D1AEB5 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		B742BB4D2AF566BE00D1AEB5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B742BB4F2AF572DA00D1AEB5 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		B7BE2C712AF95E6E00E7F4F8 /* ProductGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridCell.swift; sourceTree = "<group>"; };
+		B7BE2C732AF9609B00E7F4F8 /* Product+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+Extensions.swift"; sourceTree = "<group>"; };
+		B7BE2C752AFBE94000E7F4F8 /* HomeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRoute.swift; sourceTree = "<group>"; };
+		B7BE2C772AFBE99300E7F4F8 /* PostProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProductView.swift; sourceTree = "<group>"; };
+		B7BE2C792AFBE9F100E7F4F8 /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		B7BE2C7B2AFBEA4000E7F4F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B7BE2C7D2AFBF27600E7F4F8 /* InboxListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxListCell.swift; sourceTree = "<group>"; };
+		B7BE2C7F2AFBF2D400E7F4F8 /* ChatRoom+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatRoom+Extensions.swift"; sourceTree = "<group>"; };
+		B7BE2C812AFBF39700E7F4F8 /* ChatRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoute.swift; sourceTree = "<group>"; };
+		B7BE2C832AFBF3C600E7F4F8 /* User+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Extensions.swift"; sourceTree = "<group>"; };
+		B7BE2C852AFBF41200E7F4F8 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		B7BE2C872AFBF54F00E7F4F8 /* MessageListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListCell.swift; sourceTree = "<group>"; };
+		B7BE2C892AFBF82E00E7F4F8 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		B7BE2C8B2AFBF87B00E7F4F8 /* Message+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+Extensions.swift"; sourceTree = "<group>"; };
+		BDFF5EB12D3C60E456910DCA /* ChatRoom.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = ChatRoom.swift; path = amplify/generated/models/ChatRoom.swift; sourceTree = "<group>"; };
+		C3CD4A2F3BAC7581596F2AAF /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		D572EA68EBB9EC5BC213B299 /* Message.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Message.swift; path = amplify/generated/models/Message.swift; sourceTree = "<group>"; };
+		EC65A12591881A935A19A10B /* LastMessage+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "LastMessage+Schema.swift"; path = "amplify/generated/models/LastMessage+Schema.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +113,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B742BB482AF5651400D1AEB5 /* AmplifyImage in Frameworks */,
+				B742B45C2AF53F7F009C1944 /* AWSAPIPlugin in Frameworks */,
+				B742B4662AF53F7F009C1944 /* AWSPinpointAnalyticsPlugin in Frameworks */,
+				B742B4642AF53F7F009C1944 /* AWSLocationGeoPlugin in Frameworks */,
+				B742B45E2AF53F7F009C1944 /* AWSCloudWatchLoggingPlugin in Frameworks */,
+				B742B4702AF53F7F009C1944 /* Amplify in Frameworks */,
+				B742B46C2AF53F7F009C1944 /* AWSPredictionsPlugin in Frameworks */,
+				B742B46E2AF53F7F009C1944 /* AWSS3StoragePlugin in Frameworks */,
+				B742B46A2AF53F7F009C1944 /* AWSPluginsCore in Frameworks */,
+				B742B4722AF53F7F009C1944 /* CoreMLPredictionsPlugin in Frameworks */,
+				B742B4602AF53F7F009C1944 /* AWSCognitoAuthPlugin in Frameworks */,
+				B742B4682AF53F7F009C1944 /* AWSPinpointPushNotificationsPlugin in Frameworks */,
+				B742B4622AF53F7F009C1944 /* AWSDataStorePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +137,8 @@
 			children = (
 				B742B44B2AF53357009C1944 /* ProductMarketplace */,
 				B742B44A2AF53357009C1944 /* Products */,
+				C9C3F8A8A95175A1A9AFFCE8 /* AmplifyConfig */,
+				C013D31044D8864411ACC279 /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +154,33 @@
 			isa = PBXGroup;
 			children = (
 				B742B44C2AF53357009C1944 /* ProductMarketplaceApp.swift */,
+				B742BB3D2AF559D900D1AEB5 /* ConfirmSignUpView.swift */,
+				B742BB3B2AF5595300D1AEB5 /* SignUpView.swift */,
+				B742B4732AF54F7F009C1944 /* LoginView.swift */,
 				B742B44E2AF53357009C1944 /* ContentView.swift */,
 				B742B4502AF53358009C1944 /* Assets.xcassets */,
 				B742B4522AF53358009C1944 /* Preview Content */,
+				B742BB3F2AF55DF500D1AEB5 /* UserState.swift */,
+				B742BB412AF55E2F00D1AEB5 /* MarketplaceError.swift */,
+				B742BB432AF55E5200D1AEB5 /* SessionView.swift */,
+				B742BB492AF5653000D1AEB5 /* AvatarView.swift */,
+				B742BB4B2AF5660F00D1AEB5 /* UserProfileView.swift */,
+				B742BB4D2AF566BE00D1AEB5 /* MainTabView.swift */,
+				B742BB4F2AF572DA00D1AEB5 /* ImagePickerView.swift */,
+				B7BE2C712AF95E6E00E7F4F8 /* ProductGridCell.swift */,
+				B7BE2C732AF9609B00E7F4F8 /* Product+Extensions.swift */,
+				B7BE2C752AFBE94000E7F4F8 /* HomeRoute.swift */,
+				B7BE2C772AFBE99300E7F4F8 /* PostProductView.swift */,
+				B7BE2C792AFBE9F100E7F4F8 /* ProductDetailsView.swift */,
+				B7BE2C7B2AFBEA4000E7F4F8 /* HomeView.swift */,
+				B7BE2C7D2AFBF27600E7F4F8 /* InboxListCell.swift */,
+				B7BE2C7F2AFBF2D400E7F4F8 /* ChatRoom+Extensions.swift */,
+				B7BE2C812AFBF39700E7F4F8 /* ChatRoute.swift */,
+				B7BE2C832AFBF3C600E7F4F8 /* User+Extensions.swift */,
+				B7BE2C852AFBF41200E7F4F8 /* InboxView.swift */,
+				B7BE2C872AFBF54F00E7F4F8 /* MessageListCell.swift */,
+				B7BE2C892AFBF82E00E7F4F8 /* MessagesView.swift */,
+				B7BE2C8B2AFBF87B00E7F4F8 /* Message+Extensions.swift */,
 			);
 			path = ProductMarketplace;
 			sourceTree = "<group>";
@@ -65,6 +191,33 @@
 				B742B4532AF53358009C1944 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C013D31044D8864411ACC279 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F8233B185700A3F7E5AFA /* AmplifyModels.swift */,
+				5E1A2E2A367DCB9BE7254FAB /* User+Schema.swift */,
+				15F60050D82E0EE7B571D2E9 /* User.swift */,
+				94D095958B288E6A17098D24 /* Product+Schema.swift */,
+				7F532903E970978D56AC2E03 /* Product.swift */,
+				78BD1F7F7E2BADBDBE449107 /* ChatRoom+Schema.swift */,
+				BDFF5EB12D3C60E456910DCA /* ChatRoom.swift */,
+				EC65A12591881A935A19A10B /* LastMessage+Schema.swift */,
+				0C9234701AB92542CC33A14C /* LastMessage.swift */,
+				D572EA68EBB9EC5BC213B299 /* Message.swift */,
+				54B17B42126CC045575CDDA3 /* Message+Schema.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		C9C3F8A8A95175A1A9AFFCE8 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C3CD4A2F3BAC7581596F2AAF /* awsconfiguration.json */,
+				A88FBA224FAE4D3C16939350 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +236,21 @@
 			dependencies = (
 			);
 			name = ProductMarketplace;
+			packageProductDependencies = (
+				B742B45B2AF53F7F009C1944 /* AWSAPIPlugin */,
+				B742B45D2AF53F7F009C1944 /* AWSCloudWatchLoggingPlugin */,
+				B742B45F2AF53F7F009C1944 /* AWSCognitoAuthPlugin */,
+				B742B4612AF53F7F009C1944 /* AWSDataStorePlugin */,
+				B742B4632AF53F7F009C1944 /* AWSLocationGeoPlugin */,
+				B742B4652AF53F7F009C1944 /* AWSPinpointAnalyticsPlugin */,
+				B742B4672AF53F7F009C1944 /* AWSPinpointPushNotificationsPlugin */,
+				B742B4692AF53F7F009C1944 /* AWSPluginsCore */,
+				B742B46B2AF53F7F009C1944 /* AWSPredictionsPlugin */,
+				B742B46D2AF53F7F009C1944 /* AWSS3StoragePlugin */,
+				B742B46F2AF53F7F009C1944 /* Amplify */,
+				B742B4712AF53F7F009C1944 /* CoreMLPredictionsPlugin */,
+				B742BB472AF5651400D1AEB5 /* AmplifyImage */,
+			);
 			productName = ProductMarketplace;
 			productReference = B742B4492AF53357009C1944 /* ProductMarketplace.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +279,10 @@
 				Base,
 			);
 			mainGroup = B742B4402AF53357009C1944;
+			packageReferences = (
+				B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+				B742BB462AF5651400D1AEB5 /* XCRemoteSwiftPackageReference "amplifyimage" */,
+			);
 			productRefGroup = B742B44A2AF53357009C1944 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +299,8 @@
 			files = (
 				B742B4542AF53358009C1944 /* Preview Assets.xcassets in Resources */,
 				B742B4512AF53358009C1944 /* Assets.xcassets in Resources */,
+				8746A56D06E063604B46A469 /* awsconfiguration.json in Resources */,
+				B37C30B0E5E8D79D17016B7D /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +311,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B742BB442AF55E5200D1AEB5 /* SessionView.swift in Sources */,
+				B7BE2C862AFBF41200E7F4F8 /* InboxView.swift in Sources */,
+				B742BB4A2AF5653000D1AEB5 /* AvatarView.swift in Sources */,
+				B7BE2C7E2AFBF27600E7F4F8 /* InboxListCell.swift in Sources */,
+				B7BE2C742AF9609B00E7F4F8 /* Product+Extensions.swift in Sources */,
+				B742BB402AF55DF500D1AEB5 /* UserState.swift in Sources */,
+				B742B4742AF54F7F009C1944 /* LoginView.swift in Sources */,
+				B7BE2C802AFBF2D400E7F4F8 /* ChatRoom+Extensions.swift in Sources */,
+				B7BE2C882AFBF54F00E7F4F8 /* MessageListCell.swift in Sources */,
+				B742BB502AF572DA00D1AEB5 /* ImagePickerView.swift in Sources */,
+				B742BB3E2AF559D900D1AEB5 /* ConfirmSignUpView.swift in Sources */,
+				B742BB4C2AF5660F00D1AEB5 /* UserProfileView.swift in Sources */,
+				B7BE2C722AF95E6E00E7F4F8 /* ProductGridCell.swift in Sources */,
 				B742B44F2AF53357009C1944 /* ContentView.swift in Sources */,
+				B7BE2C762AFBE94000E7F4F8 /* HomeRoute.swift in Sources */,
+				B742BB422AF55E2F00D1AEB5 /* MarketplaceError.swift in Sources */,
 				B742B44D2AF53357009C1944 /* ProductMarketplaceApp.swift in Sources */,
+				B742BB3C2AF5595300D1AEB5 /* SignUpView.swift in Sources */,
+				B7BE2C782AFBE99300E7F4F8 /* PostProductView.swift in Sources */,
+				0AA8E8CFFDCDBD8B92E182F7 /* AmplifyModels.swift in Sources */,
+				B7BE2C8A2AFBF82E00E7F4F8 /* MessagesView.swift in Sources */,
+				B742BB4E2AF566BE00D1AEB5 /* MainTabView.swift in Sources */,
+				B7BE2C7A2AFBE9F100E7F4F8 /* ProductDetailsView.swift in Sources */,
+				242884E74B69933501EACF19 /* User+Schema.swift in Sources */,
+				F274278FA732B98B354B5AAC /* User.swift in Sources */,
+				CB13D884B04302E4E765F490 /* Product+Schema.swift in Sources */,
+				B7BE2C7C2AFBEA4000E7F4F8 /* HomeView.swift in Sources */,
+				53526B6583EB7F8B0EC286E5 /* Product.swift in Sources */,
+				B7BE2C822AFBF39700E7F4F8 /* ChatRoute.swift in Sources */,
+				A50C21FDA6896E1295F0761B /* ChatRoom+Schema.swift in Sources */,
+				B7BE2C842AFBF3C600E7F4F8 /* User+Extensions.swift in Sources */,
+				D2AB65745B9EFD119B0A0ED2 /* ChatRoom.swift in Sources */,
+				B4267708D12D40840F34F131 /* LastMessage+Schema.swift in Sources */,
+				12E7156A6B1F5943B2549ED5 /* LastMessage.swift in Sources */,
+				4FED0F321137AE594E4CCAB9 /* Message.swift in Sources */,
+				B7BE2C8C2AFBF87B00E7F4F8 /* Message+Extensions.swift in Sources */,
+				9F69032156AC4B8C778DF320 /* Message+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +483,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ProductMarketplace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Needed for Images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DaveAWS.ProductMarketplace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,11 +514,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ProductMarketplace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Needed for Images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DaveAWS.ProductMarketplace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +557,93 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.21.4;
+			};
+		};
+		B742BB462AF5651400D1AEB5 /* XCRemoteSwiftPackageReference "amplifyimage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kilo-loco/amplifyimage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B742B45B2AF53F7F009C1944 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		B742B45D2AF53F7F009C1944 /* AWSCloudWatchLoggingPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCloudWatchLoggingPlugin;
+		};
+		B742B45F2AF53F7F009C1944 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		B742B4612AF53F7F009C1944 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		B742B4632AF53F7F009C1944 /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSLocationGeoPlugin;
+		};
+		B742B4652AF53F7F009C1944 /* AWSPinpointAnalyticsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPinpointAnalyticsPlugin;
+		};
+		B742B4672AF53F7F009C1944 /* AWSPinpointPushNotificationsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPinpointPushNotificationsPlugin;
+		};
+		B742B4692AF53F7F009C1944 /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPluginsCore;
+		};
+		B742B46B2AF53F7F009C1944 /* AWSPredictionsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPredictionsPlugin;
+		};
+		B742B46D2AF53F7F009C1944 /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSS3StoragePlugin;
+		};
+		B742B46F2AF53F7F009C1944 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		B742B4712AF53F7F009C1944 /* CoreMLPredictionsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742B45A2AF53F7F009C1944 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = CoreMLPredictionsPlugin;
+		};
+		B742BB472AF5651400D1AEB5 /* AmplifyImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B742BB462AF5651400D1AEB5 /* XCRemoteSwiftPackageReference "amplifyimage" */;
+			productName = AmplifyImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B742B4412AF53357009C1944 /* Project object */;
 }
